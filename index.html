@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>CountDown Timer Animation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Countdown <br>  </h1>
+    <div class="row align-items-center" style="background-image: url('./img/yogurt.png'); height: 1500px; background-repeat: no-repeat; background-position: center; background-size: contain;">
+        <div class="container row" style="margin-top: 400px;">
+            <div class="col-12" style="margin-right: 250px;">
+                <h1 class="h4">Da consumarsi</h1>
+                <h1 class="h4">preferibilmente entro</h1>
+            </div>
+            <div class="col-12 d-flex justify-content-center" style="margin-right: 250px; transform: skew(-0.02turn, 1deg) rotateZ(-2deg);">
+                <div class="container-segment px-1">
+                    <div class="segment-title">Days</div>
+                        <div class="segment">
+                            <div class="flip-card" data-days-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                
+                            <div class="flip-card" data-days-ones>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+        
+                        </div>
+        
+                </div>
+        
+                <div class="container-segment px-1">
+                    <div class="segment-title">Hours</div>
+                        <div class="segment">
+                            <div class="flip-card" data-hours-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                
+                            <div class="flip-card" data-hours-ones>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+        
+                        </div>
+        
+                </div>
+        
+                <div class="container-segment px-1">
+                    <div class="segment-title">Minutes</div>
+                        <div class="segment">
+                            <div class="flip-card" data-minutes-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+        
+                            <div class="flip-card" data-minutes-ones>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="container-segment px-1">
+                    <div class="segment-title">Seconds</div>
+                        <div class="segment">
+                            <div class="flip-card" data-seconds-tens>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+        
+                            <div class="flip-card" data-seconds-ones>
+                                <div class="top">0</div>
+                                <div class="bottom">0</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>
